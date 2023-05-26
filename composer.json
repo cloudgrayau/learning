@@ -1,0 +1,46 @@
+{
+    "name": "cloudgrayau/learning",
+    "description": "Learning and course platform for Craft CMS",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "learning",
+        "e-learning",
+        "courses",
+        "scorm"
+    ],
+    "support": {
+        "docs": "https://github.com/cloudgrayau/learning",
+        "issues": "https://github.com/cloudgrayau/learning/issues"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cloud Gray Pty Ltd",
+            "homepage": "https://cloudgray.com.au/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^4.0",
+        "php": "^8.0",
+        "cloudgrayau/utils": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "cloudgrayau\\learning\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Learning",
+        "handle": "learning",
+        "developer": "Cloud Gray Pty Ltd",
+        "developerUrl": "https://cloudgray.com.au/",
+        "documentationUrl": "https://github.com/cloudgrayau/learning/blob/craft4/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/cloudgrayau/learning/craft4/CHANGELOG.md",
+        "class": "cloudgrayau\\learning\\Learning"
+    }
+}
